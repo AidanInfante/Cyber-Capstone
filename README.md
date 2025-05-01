@@ -27,6 +27,8 @@ Installation
 git clone https://github.com/AidanInfante/Cyber-Capstone.git
 cd Cyber-Capstone
 
+Run all python scripts within /finalized/setup to create needed output files and have folder organization structure found below
+
 Create a Virtual Environment:
 
 python -m venv venv
@@ -98,26 +100,26 @@ Cyber_Capstone/
         setup-files/    # files used to create final scripts
 
             ember-dataset/     # data imported for training and demo
-                ember_dataset_2018_2.tar    # file to extract
+                ember_dataset_2018_2.tar    # file to extract from ember README (too large to upload to github)
                 features.py    # script of different file features
                 README.md     # ember README giving instructions to import data, but only used to import data (other instructions there, but stayed unused as I built my own scripts for my project)  
-                test_features.jsonl    # tests dataset to compare to Random Forest Model accuracy
-                train_features_0.jsonl     # data to analyze and use to train
-                train_features_1.jsonl     # data to analyze and use to train
-                train_features_2.jsonl     # data to analyze and use to train
-                train_features_3.jsonl     # data to analyze and use to train
-                train_features_4.jsonl     # data to analyze and use to train
-                train_features_5.jsonl     # data to analyze and use to train
+                test_features.jsonl    # tests dataset to compare to Random Forest Model accuracy, need to extract from ember README (too large to upload to github)
+                train_features_0.jsonl     # data to analyze and use to train, need to extract from ember README (too large to upload to github)
+                train_features_1.jsonl     # data to analyze and use to train, need to extract from ember README (too large to upload to github)
+                train_features_2.jsonl     # data to analyze and use to train, need to extract from ember README (too large to upload to github)
+                train_features_3.jsonl     # data to analyze and use to train, need to extract from ember README (too large to upload to github)
+                train_features_4.jsonl     # data to analyze and use to train, need to extract from ember README (too large to upload to github)
+                train_features_5.jsonl     # data to analyze and use to train, need to extract from ember README (too large to upload to github)
 
             create_clean_features.py    # script that flattens nested JSON for model training
-            ember_features.csv     # initial nested JSON flattening script output
+            ember_features.csv     # initial nested JSON flattening script output, needs to be created by generate_csv.py as it is too large to upload to github
             generate_csv.py     # created the initial ember_features.csv
             train_model.py     # uses the cleaned features to train and save the Random Forest Classifier
 
-        cleaned_features.csv    # output of the clean flattening script
+        cleaned_features.csv    # output of the clean flattening script, needs to be created by create_clean_features.py as it is too large to upload to github
         Demo.mp4    # demo video for presentation
         full_script_gui.py  # final and full script that runs antivirus and scans csv files
-        Infante_Antivirus_Model.joblib     # trained Random Forest Classifier used for final script
+        Infante_Antivirus_Model.joblib     # trained Random Forest Classifier used for final script, must be created by train_model.py as it is too large to upload to github
         predictions_output.csv     # output of the predictions script
         README.md     # this file detailing the project
         requirements.txt    # detailed text with the different imports needed for the scripts to run
