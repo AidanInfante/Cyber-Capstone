@@ -115,7 +115,7 @@ Cyber_Capstone/
             ember_features.csv     # initial nested JSON flattening script output, needs to be created by generate_csv.py as it is too large to upload to github
             generate_csv.py     # created the initial ember_features.csv
             train_model.py     # uses the cleaned features to train and save the Random Forest Classifier
-
+            predict.py    # creates the predictions of what the antivirus model should get
         cleaned_features.csv    # output of the clean flattening script, needs to be created by create_clean_features.py as it is too large to upload to github
         Demo.mp4    # demo video for presentation
         full_script_gui.py  # final and full script that runs antivirus and scans csv files
