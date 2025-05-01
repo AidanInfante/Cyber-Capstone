@@ -24,8 +24,8 @@ Installation
 
     Clone the Repository:
 
-git clone https://github.com/yourusername/infante-antivirus.git
-cd infante-antivirus
+git clone https://github.com/AidanInfante/Cyber-Capstone.git
+cd Cyber-Capstone
 
 Create a Virtual Environment:
 
