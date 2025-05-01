@@ -97,9 +97,9 @@ Cyber_Capstone/
 ├── finalized/ 
 
         quarintine/    # empty folder for future quarintine implementation
-        ├── setup-files/    # files used to create final scripts
+        setup-files/    # files used to create final scripts
 
-            ├── ember-dataset/     # data imported for training and demo
+            ember-dataset/     # data imported for training and demo
                 ember_dataset_2018_2.tar    # file to extract from ember README (too large to upload to github)
                 features.py    # script of different file features
                 README.md     # ember README giving instructions to import data, but only used to import data (other instructions there, but stayed unused as I built my own scripts for my project)  
