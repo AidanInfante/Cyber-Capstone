@@ -121,7 +121,7 @@ Cyber_Capstone/
         full_script_gui.py  # final and full script that runs antivirus and scans csv files
         Infante_Antivirus_Model.joblib     # trained Random Forest Classifier used for final script, must be created by train_model.py as it is too large to upload to github
         predictions_output.csv     # output of the predictions script
-        README.md     # this file detailing the project
+README.md     # this file detailing the project
         requirements.txt    # detailed text with the different imports needed for the scripts to run
 
 Acknowledgments
